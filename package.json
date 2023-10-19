@@ -2,6 +2,7 @@
   "name": "@fntsr/next-dev-env",
   "type": "module",
   "private": true,
+  "packageManager": "pnpm@8.9.0",
   "engines": {
     "node": "^18.18.2",
     "pnpm": "^8.9.0"
