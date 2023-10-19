@@ -29,6 +29,13 @@ Recommend [Visual Studio Code](https://code.visualstudio.com/).
 
 - Install VS Code extenstions (You can install them by executive `./scripts/install-vs-code-extenstions.sh`):
   - Vue.volar
+- Turn on [Volar takeover mode](https://vuejs.org/guide/typescript/overview.html#volar-takeover-mode)
+  - Call VS Code command palette by `Cmd + Shift + P`
+  - Type `built` and select `Extensions: Show Built-in Extensions`.
+  - Type `typescript` after `@builtin` in the extension search box
+  - Click the little gear icon of `TypeScript and JavaScript Language Features`, and select `Disable (Workspace)`.
+  - Reload the workspace. Takeover mode will be enabled when you open a Vue or TS file.
+
 ### Start the development server
 
 defualt host on http://localhost:3000
