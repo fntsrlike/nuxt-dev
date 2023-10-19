@@ -1,5 +1,6 @@
 {
   "recommendations": [
+    "editorconfig.editorconfig",
     "nuxtr.nuxtr-vscode",
     "vue.volar",
     "nuxt.mdc"
