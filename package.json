@@ -2,6 +2,10 @@
   "name": "@fntsr/next-dev-env",
   "type": "module",
   "private": true,
+  "engines": {
+    "node": "^18.18.2",
+    "pnpm": "^8.9.0"
+  },
   "scripts": {
     "build": "nuxi build",
     "dev": "nuxi dev",
