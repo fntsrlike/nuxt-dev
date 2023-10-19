@@ -24,6 +24,11 @@ pnpm install
 
 ## Development
 
+### Editor
+Recommend [Visual Studio Code](https://code.visualstudio.com/).
+
+- Install VS Code extenstions (You can install them by executive `./scripts/install-vs-code-extenstions.sh`):
+  - Vue.volar
 ### Start the development server
 
 defualt host on http://localhost:3000
