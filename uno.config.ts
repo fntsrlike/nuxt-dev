@@ -1,3 +1,4 @@
+import extractorMdc from '@unocss/extractor-mdc'
 import {
   defineConfig,
   presetAttributify,
@@ -6,6 +7,14 @@ import {
 } from 'unocss'
 
 export default defineConfig({
+  content: {
+    filesystem: [
+      '**/*.md',
+    ],
+  },
+  extractors: [
+    extractorMdc(),
+  ],
   presets: [
     presetAttributify(),
     presetTypography(),
