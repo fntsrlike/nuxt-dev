@@ -27,8 +27,7 @@ pnpm install
 ### Editor
 Recommend [Visual Studio Code](https://code.visualstudio.com/).
 
-- Install VS Code extenstions (You can install them by executive `./scripts/install-vs-code-extenstions.sh`):
-  - Vue.volar
+- Install [recommended](./.vscode/extensions.json) VS Code extenstions by executive `./scripts/install-vs-code-extenstions.sh` .
 - Turn on [Volar takeover mode](https://vuejs.org/guide/typescript/overview.html#volar-takeover-mode)
   - Call VS Code command palette by `Cmd + Shift + P`
   - Type `built` and select `Extensions: Show Built-in Extensions`.
