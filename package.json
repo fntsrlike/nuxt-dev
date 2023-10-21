@@ -14,8 +14,10 @@
     "preview": "nuxi preview",
     "postinstall": "nuxi prepare",
     "postinstall:vscode-ext": "./scripts/install-vscode-ext.sh",
-    "lint": "pnpm run lint:ts",
-    "lint:ts": "nuxi typecheck"
+    "lint": "pnpm run postinstall && pnpm run lint:ts && pnpm run lint:es",
+    "lint:ts": "nuxi typecheck",
+    "lint:es": "eslint .",
+    "lint:es-fix": "eslint . --fix"
   },
   "devDependencies": {
     "@antfu/eslint-config": "1.0.0-beta.27",
