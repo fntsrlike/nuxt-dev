@@ -18,7 +18,10 @@
     "lint:ts": "nuxi typecheck"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "1.0.0-beta.27",
+    "@nuxt/content": "^2.8.5",
     "@nuxt/devtools": "latest",
+    "eslint": "^8.52.0",
     "nuxt": "^3.8.0",
     "typescript": "^5.2.2",
     "vue": "^3.3.7",

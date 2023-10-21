@@ -23,6 +23,7 @@ pnpm install
 ```
 
 ## Development
+[![code style](https://antfu.me/badge-code-style.svg)](https://github.com/antfu/eslint-config)
 
 ### Editor
 Recommend [Visual Studio Code](https://code.visualstudio.com/).
