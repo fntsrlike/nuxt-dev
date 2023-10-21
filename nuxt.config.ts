@@ -3,6 +3,9 @@ export default defineNuxtConfig({
   devtools: {
     enabled: true,
   },
+  modules: [
+    '@unocss/nuxt',
+  ],
   typescript: {
     shim: false,
     strict: true,
