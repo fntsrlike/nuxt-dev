@@ -19,7 +19,8 @@
     "lint:ts": "nuxi typecheck",
     "lint:es": "eslint .",
     "lint:es-fix": "eslint . --fix",
-    "lint:staged": "eslint --fix --cache --cache-strategy content"
+    "lint:staged": "eslint --fix --cache --cache-strategy content",
+    "lint:sh": "cd scripts && shellcheck **.sh"
   },
   "devDependencies": {
     "@antfu/eslint-config": "1.0.0-beta.27",
@@ -28,6 +29,7 @@
     "eslint": "^8.52.0",
     "lint-staged": "^15.0.2",
     "nuxt": "^3.8.0",
+    "shellcheck": "^2.2.0",
     "simple-git-hooks": "^2.9.0",
     "typescript": "^5.2.2",
     "vue": "^3.3.7",
@@ -40,6 +42,9 @@
   "lint-staged": {
     "*.{js,ts,vue}": [
       "pnpm run lint:staged"
+    ],
+    "*.sh": [
+      "pnpm run lint:sh"
     ]
   }
 }
