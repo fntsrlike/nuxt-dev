@@ -12,7 +12,8 @@
     "dev": "nuxi dev",
     "generate": "nuxi generate",
     "preview": "nuxi preview",
-    "postinstall": "nuxi prepare"
+    "postinstall": "nuxi prepare",
+    "postinstall:vscode-ext": "./scripts/install-vscode-ext.sh"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
