@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "@fntsr/next-dev-env",
   "type": "module",
   "private": true,
   "scripts": {
